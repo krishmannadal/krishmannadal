@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 230" role="img" aria-labelledby="title desc">
+<title id="title">Build with evidence</title><desc id="desc">NLP, evaluation and practical AI. Krishnakumar Mandal.</desc>
+<rect width="1200" height="230" rx="16" fill="#0d1b2a"/>
+<g stroke="#20384b" fill="none" stroke-width="1"><path d="M820 0V230"/><path d="M852 0V230"/><path d="M884 0V230"/><path d="M916 0V230"/><path d="M948 0V230"/><path d="M980 0V230"/><path d="M1012 0V230"/><path d="M1044 0V230"/><path d="M1076 0V230"/><path d="M1108 0V230"/><path d="M1140 0V230"/><path d="M1172 0V230"/><path d="M800 0H1200"/><path d="M800 32H1200"/><path d="M800 64H1200"/><path d="M800 96H1200"/><path d="M800 128H1200"/><path d="M800 160H1200"/><path d="M800 192H1200"/><path d="M800 224H1200"/></g>
+<rect x="34" y="34" width="5" height="162" fill="#5eead4"/>
+<g font-family="Arial, Helvetica, sans-serif">
+<text x="62" y="57" font-size="15" letter-spacing="3" fill="#b5c6d6">KRISHNAKUMAR MANDAL / SELECTED WORK</text>
+<text x="58" y="119" font-size="54" font-weight="700" fill="#f1f5f9">Build with evidence.</text>
+<text x="62" y="160" font-size="22" fill="#b5c6d6">NLP, evaluation &amp; practical AI</text>
+<text x="62" y="199" font-size="14" letter-spacing="2" fill="#5eead4">SFIT MUMBAI · CLASS OF 2028</text>
+</g>
+<g fill="none" stroke="#5eead4" stroke-width="3">
+<path d="M858 165V110L900 135 942 83 984 110 1038 58 1110 96"/>
+<circle cx="858" cy="165" r="6" fill="#0d1b2a"/><circle cx="942" cy="83" r="6" fill="#0d1b2a"/>
+<circle cx="1038" cy="58" r="6" fill="#0d1b2a"/><circle cx="1110" cy="96" r="6" fill="#0d1b2a"/>
+</g>
+<text x="859" y="201" fill="#b5c6d6" font-family="monospace" font-size="12">QUESTION / BUILD / CHECK</text>
+</svg>
