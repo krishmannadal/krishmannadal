@@ -65,6 +65,18 @@ How should language models be evaluated when fluent answers can be wrong? What h
 
 **Research interests:** NLP · language-model evaluation · AI reliability · human–AI interaction.
 
+## Contribution snake
+
+<picture>
+  <source media="(prefers-color-scheme: dark) and (prefers-reduced-motion: reduce)" srcset="assets/contributions/snake-dark-static.svg">
+  <source media="(prefers-reduced-motion: reduce)" srcset="assets/contributions/snake-static.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/contributions/snake-dark.svg">
+  <img src="assets/contributions/snake.svg" alt="Purple snake moving through Krishnakumar Mandal's GitHub contribution calendar" width="100%">
+</picture>
+
+Generated from my GitHub contribution calendar; refreshed daily.  
+[Static grid](assets/contributions/snake-static.svg) · [Update workflow](https://github.com/krishmannadal/krishmannadal/actions/workflows/contribution-snake.yml) · [Generator](https://github.com/Platane/snk)
+
 <details>
 <summary>Static introduction and motion notes</summary>
 
