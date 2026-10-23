@@ -65,7 +65,7 @@ How should language models be evaluated when fluent answers can be wrong? What h
 
 **Research interests:** NLP · language-model evaluation · AI reliability · human–AI interaction.
 
-## Contribution snake
+## Contribution activity
 
 <picture>
   <source media="(prefers-color-scheme: dark) and (prefers-reduced-motion: reduce)" srcset="assets/contributions/snake-dark-static.svg">
@@ -74,8 +74,16 @@ How should language models be evaluated when fluent answers can be wrong? What h
   <img src="assets/contributions/snake.svg" alt="Purple snake moving through Krishnakumar Mandal's GitHub contribution calendar" width="100%">
 </picture>
 
-Generated from my GitHub contribution calendar; refreshed daily.  
-[Static grid](assets/contributions/snake-static.svg) · [Update workflow](https://github.com/krishmannadal/krishmannadal/actions/workflows/contribution-snake.yml) · [Generator](https://github.com/Platane/snk)
+[View the full, uneaten calendar](assets/contributions/snake-static.svg)
+
+<details>
+<summary>How this stays up to date</summary>
+
+This is my real rolling 12-month GitHub contribution calendar, animated by [Platane/snk](https://github.com/Platane/snk). The snake eats cells during playback; the static view preserves the complete grid. The workflow checks GitHub hourly for contributions across repositories and after profile-repository changes. GitHub indexing, workflow scheduling and image caching can delay visible updates.
+
+[Source day counts](assets/contributions/calendar.json) · [Refresh workflow](https://github.com/krishmannadal/krishmannadal/actions/workflows/contribution-snake.yml)
+
+</details>
 
 <details>
 <summary>Static introduction and motion notes</summary>
