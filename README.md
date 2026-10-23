@@ -97,7 +97,13 @@ This is my real rolling 12-month GitHub contribution calendar, animated by [Plat
 </details>
 
 <details>
-<summary>GitHub achievement</summary>
+<summary>GitHub achievements</summary>
+
+<a href="https://github.com/krishmannadal?achievement=quickdraw&amp;tab=achievements">
+  <img src="https://github.githubassets.com/assets/quickdraw-default-39c6aec8ff89.png" alt="Quickdraw — earned GitHub achievement; view award details" width="72" height="72">
+</a>
+
+**Quickdraw** · earned after resolving [the duplicate profile-name issue](https://github.com/krishmannadal/krishmannadal/issues/6) in 57 seconds. [View the achievement](https://github.com/krishmannadal?achievement=quickdraw&tab=achievements).
 
 <a href="https://github.com/krishmannadal?achievement=yolo&amp;tab=achievements">
   <img src="https://github.githubassets.com/assets/yolo-default-be0bbff04951.png" alt="YOLO — earned GitHub achievement; view award details" width="72" height="72">
