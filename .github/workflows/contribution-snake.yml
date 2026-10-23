@@ -1,0 +1,56 @@
+name: Contribution snake
+
+on:
+  schedule:
+    - cron: '17 0 * * *'
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/contribution-snake.yml'
+      - 'tools/snake_static.py'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: contribution-snake-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    if: github.repository == 'krishmannadal/krishmannadal'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+    steps:
+      - name: Check out this branch
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          ref: ${{ github.ref_name }}
+
+      - name: Generate light and dark contribution snakes
+        uses: Platane/snk/svg-only@d8f6715049803e982ee5ff501b6b9b7d5deeb09b # v3.5.0
+        with:
+          github_user_name: krishmannadal
+          github_token: ${{ github.token }}
+          outputs: |
+            assets/contributions/snake.svg?color_snake=#8250df
+            assets/contributions/snake-dark.svg?palette=github-dark&color_snake=#c084fc
+
+      - name: Generate static fallbacks
+        run: python3 tools/snake_static.py
+
+      - name: Commit generated assets
+        env:
+          TARGET_BRANCH: ${{ github.ref_name }}
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -- assets/contributions/snake*.svg
+          if git diff --cached --quiet; then
+            echo 'Contribution artwork is already current.'
+            exit 0
+          fi
+          git commit -m 'chore: refresh contribution snake assets'
+          git push origin "HEAD:$TARGET_BRANCH"
