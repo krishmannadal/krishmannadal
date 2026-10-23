@@ -5,8 +5,6 @@
   <img src="assets/typewriter-light.gif" alt="Hi, I'm Krishnakumar Mandal. Building AI. Testing its limits. NLP, evaluation and applications." width="100%">
 </picture>
 
-# Krishnakumar Mandal
-
 Third-year **AIML student at St. Francis Institute of Technology, Mumbai** · graduating **May 2028**.
 I work on small language models, claim-verification tools and interactive AI applications, with an interest in how people assess and use their outputs.
 
