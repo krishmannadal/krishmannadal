@@ -2,12 +2,11 @@ name: Contribution snake
 
 on:
   schedule:
-    - cron: '17 0 * * *'
+    - cron: '17 * * * *'
   workflow_dispatch:
   push:
-    paths:
-      - '.github/workflows/contribution-snake.yml'
-      - 'tools/snake_static.py'
+    paths-ignore:
+      - 'assets/contributions/**'
 
 permissions:
   contents: read
@@ -36,10 +35,15 @@ jobs:
           github_token: ${{ github.token }}
           outputs: |
             assets/contributions/snake.svg?color_snake=#8250df
-            assets/contributions/snake-dark.svg?palette=github-dark&color_snake=#c084fc
+            assets/contributions/snake-dark.svg?palette=github-dark&color_snake=#c084fc&color_dots=#161b22,#0e4429,#006d32,#26a641,#39d353
 
       - name: Generate static fallbacks
         run: python3 tools/snake_static.py
+
+      - name: Verify and label the real contribution calendar
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python3 tools/contribution_calendar.py
 
       - name: Commit generated assets
         env:
@@ -47,7 +51,7 @@ jobs:
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add -- assets/contributions/snake*.svg
+          git add -- assets/contributions/snake*.svg assets/contributions/calendar.json
           if git diff --cached --quiet; then
             echo 'Contribution artwork is already current.'
             exit 0
