@@ -1,11 +1,8 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
-  <img src="assets/banner-light.svg" alt="Krishnakumar Mandal — NLP, evaluation and practical AI" width="100%">
-</picture>
-
-<picture>
-  <source media="(prefers-reduced-motion: reduce)" srcset="assets/intro-static.png">
-  <img src="assets/intro.gif" alt="Build applications. Inspect evidence. Test assumptions." width="100%">
+  <source media="(prefers-color-scheme: dark) and (prefers-reduced-motion: reduce)" srcset="assets/typewriter-dark-static.png">
+  <source media="(prefers-reduced-motion: reduce)" srcset="assets/typewriter-light-static.png">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/typewriter-dark.gif">
+  <img src="assets/typewriter-light.gif" alt="Hi, I'm Krishnakumar Mandal. Building AI. Testing its limits. NLP, evaluation and applications." width="100%">
 </picture>
 
 # Krishnakumar Mandal
@@ -51,6 +48,22 @@ Team project maintained by Aman Gound. My recorded contributions include the Wan
 </details>
 
 ## Tools I use
+
+<p>
+  <img src="assets/tech/python.svg" alt="Python" width="52" height="52">
+  <img src="assets/tech/pytorch.svg" alt="PyTorch" width="52" height="52">
+  <img src="assets/tech/numpy.svg" alt="NumPy" width="52" height="52">
+  <img src="assets/tech/onnx.svg" alt="ONNX" width="52" height="52">
+  <img src="assets/tech/fastapi.svg" alt="FastAPI" width="52" height="52">
+  <img src="assets/tech/streamlit.svg" alt="Streamlit" width="52" height="52">
+  <img src="assets/tech/javascript.svg" alt="JavaScript" width="52" height="52">
+  <img src="assets/tech/react.svg" alt="React" width="52" height="52">
+  <img src="assets/tech/nextdotjs.svg" alt="Next.js" width="52" height="52">
+  <img src="assets/tech/postgresql.svg" alt="PostgreSQL" width="52" height="52">
+  <img src="assets/tech/git.svg" alt="Git" width="52" height="52">
+</p>
+
+The tools below connect to projects where I use them.
 
 | Purpose | Tools | Evidence |
 | --- | --- | --- |
@@ -99,9 +112,14 @@ This is my real rolling 12-month GitHub contribution calendar, animated by [Plat
 <details>
 <summary>Static introduction and motion notes</summary>
 
-![Static introduction](assets/intro-static.png)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/typewriter-dark-static.png">
+  <img src="assets/typewriter-light-static.png" alt="Hi, I'm Krishnakumar Mandal. Building AI. Testing its limits." width="100%">
+</picture>
 
-[Static version](assets/intro-static.png). The animation plays once, then settles; all essential information is available as text above.
+The typewriter plays once, then rests on **Building AI. Testing its limits.** Its rotating lines describe my direction: small models and careful experiments; useful applications from model to interface; AI reliability and human–AI interaction. All essential profile information is also available as ordinary text above.
+
+[Static light version](assets/typewriter-light-static.png) · [Static dark version](assets/typewriter-dark-static.png) · [Asset sources & regeneration](docs/PROFILE_ASSETS.md)
 
 </details>
 
