@@ -86,6 +86,17 @@ This is my real rolling 12-month GitHub contribution calendar, animated by [Plat
 </details>
 
 <details>
+<summary>GitHub achievement</summary>
+
+<a href="https://github.com/krishmannadal?achievement=yolo&amp;tab=achievements">
+  <img src="https://github.githubassets.com/assets/yolo-default-be0bbff04951.png" alt="YOLO — earned GitHub achievement; view award details" width="72" height="72">
+</a>
+
+**YOLO** · awarded by GitHub on 23 October 2026 for merging a pull request without a review. [View the achievement](https://github.com/krishmannadal?achievement=yolo&tab=achievements).
+
+</details>
+
+<details>
 <summary>Static introduction and motion notes</summary>
 
 ![Static introduction](assets/intro-static.png)
